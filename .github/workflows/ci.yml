@@ -61,6 +61,6 @@ jobs:
       - name: build svelte.dev
         run: cd apps/svelte.dev; pnpm build
       - name: Gravity
-        run: pnpx @gravityci/cli 'apps/svelte.dev/.svelte-kit/output/**/*' --fingerprint "^(?!.*chunk).+(\.[0-9A-Za-z_\-]{8})\..+"
+        run: pnpx @gravityci/cli 'apps/svelte.dev/.svelte-kit/output/**/*'
         env:
           GRAVITY_TOKEN: ${{ secrets.GRAVITY_TOKEN }}
