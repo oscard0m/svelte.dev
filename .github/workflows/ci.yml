@@ -43,7 +43,7 @@ jobs:
   #         CI: true
   Lint:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    # timeout-minutes: 5
     steps:
       - uses: actions/checkout@v3
       - uses: pnpm/action-setup@v4
@@ -58,3 +58,9 @@ jobs:
       - name: lint
         if: (${{ success() }} || ${{ failure() }}) # ensures this step runs even if previous steps fail (avoids multiple runs uncovering different issues at different steps)
         run: pnpm lint
+      - name: build svelte.dev
+        run: cd apps/svelte.dev; pnpm build
+      - name: Gravity
+        run: pnpx @gravityci/cli 'apps/svelte.dev/.svelte-kit/output/**/*'
+        env:
+          GRAVITY_TOKEN: ${{ secrets.GRAVITY_TOKEN }}
