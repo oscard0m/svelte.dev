@@ -5,12 +5,13 @@
   "authors": [
     "thdxr",
     "fanjie",
+    "vimtor",
     "sst-publisher"
   ],
   "homepage": "https://github.com/sst/sst#readme",
   "version": "2.43.5",
-  "downloads": 1399,
-  "github_stars": 25474,
+  "downloads": 3596,
+  "github_stars": 25734,
   "updated": "2024-08-16T19:15:54.792Z",
   "kit_range": "^1.5.0",
   "typescript": true,
