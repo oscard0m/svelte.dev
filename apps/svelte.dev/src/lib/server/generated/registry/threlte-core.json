@@ -7,10 +7,10 @@
     "micheal.parks"
   ],
   "homepage": "https://threlte.xyz",
-  "version": "8.5.9",
-  "downloads": 31038,
+  "version": "8.5.14",
+  "downloads": 38534,
   "github_stars": 3174,
-  "updated": "2026-04-08T16:26:16.997Z",
+  "updated": "2026-05-09T18:37:42.152Z",
   "svelte_range": ">=5",
   "kit_range": "^2.37.0",
   "typescript": true,

@@ -4,18 +4,16 @@
   "repo_url": "https://github.com/TanStack/form",
   "authors": [
     "tannerlinsley",
-    "kevinvandy",
     "tkdodo",
     "alemtuzlak",
-    "schiller-manuel",
-    "lachlancollins",
-    "kylemathews"
+    "kevinvandy",
+    "schiller-manuel"
   ],
   "homepage": "https://tanstack.com/form",
-  "version": "1.29.1",
-  "downloads": 20079,
+  "version": "1.32.0",
+  "downloads": 22626,
   "github_stars": 6295,
-  "updated": "2026-04-21T16:58:10.591Z",
+  "updated": "2026-05-10T22:35:10.447Z",
   "svelte_range": "^5.0.0",
   "typescript": false,
   "runes": false,
